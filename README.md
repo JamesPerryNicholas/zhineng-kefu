@@ -1,5 +1,18 @@
 # 极速购 AI 客服系统 — Python 版运行手册
 
+项目采用 Vue 3 前端（`client/`）和 Python FastAPI 后端（`server-py/`）。
+Node.js 仅用于前端依赖安装、开发和构建，无需运行 Node.js 后端。
+
+前端启动：
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+前端默认地址为 `http://localhost:5173`，Python 后端使用下文的 `3000` 端口。
+
 ## 1. 环境准备
 
 ```bash
